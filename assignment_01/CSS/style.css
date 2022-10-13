@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+}
+
+body{
+  font-family: gotham, verdana, sans-serif;
+
+}
+
+
+
+h1 {
+  font-family:'Bebas Neue', cursive;
+  font-size: 10vmax;
+  line-height: 100%;
+  font-weight: normal;
+  text-transform: capitalize;
+  margin-bottom: 1vmax;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2vmax;
+  text-align: center;
+}
+
+
+header{
+  text-align: center;
+  background: url(../pages/eyes.jpg) fixed center center no-repeat;
+  background-position: top;
+  color:#111;
+  width:100%;
+  height: 70vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+article h2{
+  color: #111;
+}
+
+nav{
+  text-align: center;
+  background: #F9C9DD;
+  font-family:'Bebas Neue', cursive;
+}
+
+nav a:link {
+  background: #F9C9DD;
+  color: #333;
+  padding: 0 1.95em;
+  display:inline-block;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #555;
+}
+
+nav a:hover {
+  background: #D4FCFC;
+  color: #111;
+  padding-bottom:50em;
+}
+
+nav a:active {
+  color: #04B2D9;
+}
+
+nav a.current {
+  color: #F24162;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+
+
+.text {
+  background: #F2F0F1;
+  min-height: 70vh;
+  height: auto;
+  padding:2em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+
+
+article{
+  text-align: center;
+  background:#F2F0F1;
+  color:#222;
+  width:100%;
+  max-width: 400px;
+  min-width: 200px;
+  padding:2em;
+  margin:1em;
+}
+
+
+
+
+
+.gallery{
+  background: #F9C9DD;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+figure {
+  flex-grow: 1;
+  min-width: 300px;
+
+}
+
+figure img {
+  width:100%;
+}
